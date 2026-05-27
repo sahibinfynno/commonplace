@@ -3,7 +3,6 @@
   "build": {
     "builder": "RAILPACK",
     "buildCommand": "bun install && bun run --filter server build",
-    "watchPatterns": ["/apps/server/**", "/packages/**"],
     "buildEnvironment": "V3"
   },
   "deploy": {
